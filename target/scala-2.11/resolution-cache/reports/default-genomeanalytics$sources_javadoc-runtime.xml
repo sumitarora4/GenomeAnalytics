@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="genomeanalytics$sources_javadoc"
+		revision="1.0.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190602211231"/>
+	<dependencies>
+		<module organisation="spark.jobserver" name="job-server-extras_2.11">
+			<revision name="0.8.0" status="release" pubdate="20171126134105" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spark-jobserver/spark-jobserver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="Apache-2.0" url="http://choosealicense.com/licenses/apache/"/>
+				<metadata-artifact status="no" details="" size="5224" time="0" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-extras_2.11/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-extras_2.11/0.8.0/job-server-extras_2.11-0.8.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="job-server-extras_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17801" time="1614" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-extras_2.11/srcs/job-server-extras_2.11-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-extras_2.11/0.8.0/job-server-extras_2.11-0.8.0-sources.jar"/>
+					</artifact>
+					<artifact name="job-server-extras_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="472988" time="4002" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-extras_2.11/docs/job-server-extras_2.11-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-extras_2.11/0.8.0/job-server-extras_2.11-0.8.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="spark.jobserver" name="job-server_2.11">
+			<revision name="0.8.0" status="release" pubdate="20171126134111" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spark-jobserver/spark-jobserver" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache-2.0" url="http://choosealicense.com/licenses/apache/"/>
+				<metadata-artifact status="no" details="" size="5877" time="0" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server_2.11/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server_2.11/0.8.0/job-server_2.11-0.8.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="job-server_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1057796" time="3327" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server_2.11/docs/job-server_2.11-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server_2.11/0.8.0/job-server_2.11-0.8.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="job-server_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="151949" time="1717" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server_2.11/srcs/job-server_2.11-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server_2.11/0.8.0/job-server_2.11-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.spark" name="spark-cassandra-connector_2.11">
+			<revision name="2.0.5" status="release" pubdate="20170826050800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/spark-cassandra-connector" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="27000" time="0" location="/Users/sumitarora/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.11/ivy-2.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.11/2.0.5/spark-cassandra-connector_2.11-2.0.5.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.0.5" rev-constraint-default="2.0.5" rev-constraint-dynamic="2.0.5" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spark-cassandra-connector_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2708055" time="4035" location="/Users/sumitarora/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.11/docs/spark-cassandra-connector_2.11-2.0.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.11/2.0.5/spark-cassandra-connector_2.11-2.0.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="spark-cassandra-connector_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="246863" time="1577" location="/Users/sumitarora/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.11/srcs/spark-cassandra-connector_2.11-2.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/spark/spark-cassandra-connector_2.11/2.0.5/spark-cassandra-connector_2.11-2.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="jsr166e">
+			<revision name="1.1.0" status="release" pubdate="20140214232520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2830" time="0" location="/Users/sumitarora/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="73410" time="1359" location="/Users/sumitarora/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="jsr166e" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="113786" time="1535" location="/Users/sumitarora/.ivy2/cache/com.twitter/jsr166e/docs/jsr166e-1.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.4" status="release" pubdate="20100207232626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/dbcp/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5870" time="0" location="/Users/sumitarora/.ivy2/cache/commons-dbcp/commons-dbcp/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="707465" time="1741" location="/Users/sumitarora/.ivy2/cache/commons-dbcp/commons-dbcp/docs/commons-dbcp-1.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-dbcp" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="159513" time="1357" location="/Users/sumitarora/.ivy2/cache/commons-dbcp/commons-dbcp/srcs/commons-dbcp-1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.5.4" status="release" pubdate="20091113071653" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5055" time="0" location="/Users/sumitarora/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-pool" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="436817" time="1458" location="/Users/sumitarora/.ivy2/cache/commons-pool/commons-pool/docs/commons-pool-1.5.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-pool" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="96194" time="1366" location="/Users/sumitarora/.ivy2/cache/commons-pool/commons-pool/srcs/commons-pool-1.5.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.postgresql" name="postgresql">
+			<revision name="9.4.1209" status="release" pubdate="20160715183352" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pgjdbc/pgjdbc" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="31">
+				<license name="The PostgreSQL License" url="http://www.postgresql.org/about/licence/"/>
+				<metadata-artifact status="no" details="" size="5245" time="0" location="/Users/sumitarora/.ivy2/cache/org.postgresql/postgresql/ivy-9.4.1209.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4.1209/postgresql-9.4.1209.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="9.4.1209" rev-constraint-default="9.4.1209" rev-constraint-dynamic="9.4.1209" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="postgresql" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1202841" time="2417" location="/Users/sumitarora/.ivy2/cache/org.postgresql/postgresql/docs/postgresql-9.4.1209-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4.1209/postgresql-9.4.1209-javadoc.jar"/>
+					</artifact>
+					<artifact name="postgresql" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="746729" time="1744" location="/Users/sumitarora/.ivy2/cache/org.postgresql/postgresql/srcs/postgresql-9.4.1209-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4.1209/postgresql-9.4.1209-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="spark.jobserver" name="akka-app_2.11">
+			<revision name="0.8.0" status="release" pubdate="20171126134026" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spark-jobserver/spark-jobserver" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache-2.0" url="http://choosealicense.com/licenses/apache/"/>
+				<metadata-artifact status="no" details="" size="5719" time="0" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/akka-app_2.11/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/akka-app_2.11/0.8.0/akka-app_2.11-0.8.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-app_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10653" time="1644" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/akka-app_2.11/srcs/akka-app_2.11-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/akka-app_2.11/0.8.0/akka-app_2.11-0.8.0-sources.jar"/>
+					</artifact>
+					<artifact name="akka-app_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="452537" time="3192" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/akka-app_2.11/docs/akka-app_2.11-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/akka-app_2.11/0.8.0/akka-app_2.11-0.8.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-client_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324192226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3704" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-client_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-client_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="385170" time="1932" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-client_2.11/docs/spray-client_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-client_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3912" time="1290" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-client_2.11/srcs/spray-client_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-routing-shapeless23_2.11">
+			<revision name="1.3.4" status="release" pubdate="20160930184034" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3774" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-routing-shapeless23_2.11/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-routing-shapeless23_2.11/1.3.4/spray-routing-shapeless23_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-routing-shapeless23_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="81180" time="1494" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-routing-shapeless23_2.11/srcs/spray-routing-shapeless23_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-routing-shapeless23_2.11/1.3.4/spray-routing-shapeless23_2.11-1.3.4-sources.jar"/>
+					</artifact>
+					<artifact name="spray-routing-shapeless23_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1305429" time="2422" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-routing-shapeless23_2.11/docs/spray-routing-shapeless23_2.11-1.3.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-routing-shapeless23_2.11/1.3.4/spray-routing-shapeless23_2.11-1.3.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-httpx_2.11">
+			<revision name="1.3.4" status="release" pubdate="20160930184018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4640" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-httpx_2.11/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-httpx_2.11/1.3.4/spray-httpx_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-httpx_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="723625" time="2216" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-httpx_2.11/docs/spray-httpx_2.11-1.3.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-httpx_2.11/1.3.4/spray-httpx_2.11-1.3.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-httpx_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45491" time="1322" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-httpx_2.11/srcs/spray-httpx_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-httpx_2.11/1.3.4/spray-httpx_2.11-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-caching_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324192204" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3334" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-caching_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-caching_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4852" time="1267" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-caching_2.11/srcs/spray-caching_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-caching_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="376680" time="1610" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-caching_2.11/docs/spray-caching_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.4.2" status="release" pubdate="20150128070055" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5220" time="0" location="/Users/sumitarora/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="58654" time="1343" location="/Users/sumitarora/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/docs/concurrentlinkedhashmap-lru-1.4.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="concurrentlinkedhashmap-lru" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="57410" time="1303" location="/Users/sumitarora/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/srcs/concurrentlinkedhashmap-lru-1.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-cluster_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162806" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3306" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.9/akka-cluster_2.11-2.4.9.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-cluster_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1071508" time="1946" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/docs/akka-cluster_2.11-2.4.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.9/akka-cluster_2.11-2.4.9-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-cluster_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="125666" time="1350" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/srcs/akka-cluster_2.11-2.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.11/2.4.9/akka-cluster_2.11-2.4.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="spark.jobserver" name="job-server-api_2.11">
+			<revision name="0.8.0" status="release" pubdate="20171126134032" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spark-jobserver/spark-jobserver" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="35">
+				<license name="Apache-2.0" url="http://choosealicense.com/licenses/apache/"/>
+				<metadata-artifact status="no" details="" size="4913" time="0" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-api_2.11/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-api_2.11/0.8.0/job-server-api_2.11-0.8.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="job-server-api_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="526773" time="4321" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-api_2.11/docs/job-server-api_2.11-0.8.0-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-api_2.11/0.8.0/job-server-api_2.11-0.8.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="job-server-api_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16770" time="1835" location="/Users/sumitarora/.ivy2/cache/spark.jobserver/job-server-api_2.11/srcs/job-server-api_2.11-0.8.0-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/spark-jobserver/maven/spark/jobserver/job-server-api_2.11/0.8.0/job-server-api_2.11-0.8.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.8.1" status="release" pubdate="20151002162804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6434" time="0" location="/Users/sumitarora/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="101952" time="1676" location="/Users/sumitarora/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.8.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="45686" time="1362" location="/Users/sumitarora/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.11">
+			<revision name="2.2.6" status="release" pubdate="20160106002905" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3090" time="0" location="/Users/sumitarora/.ivy2/cache/org.scalactic/scalactic_2.11/ivy-2.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.2.6" rev-constraint-default="2.2.6" rev-constraint-dynamic="2.2.6" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scalactic_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1009511" time="2573" location="/Users/sumitarora/.ivy2/cache/org.scalactic/scalactic_2.11/docs/scalactic_2.11-2.2.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalactic_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="242" time="1285" location="/Users/sumitarora/.ivy2/cache/org.scalactic/scalactic_2.11/srcs/scalactic_2.11-2.2.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.11/2.2.6/scalactic_2.11-2.2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.44.Final" status="release" pubdate="20170130224224" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17819" time="0" location="/Users/sumitarora/.ivy2/cache/io.netty/netty-all/ivy-4.0.44.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="4.0.44.Final" rev-constraint-default="4.0.44.Final" rev-constraint-dynamic="4.0.44.Final" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1826632" time="2189" location="/Users/sumitarora/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.0.44.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty-all" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="4926240" time="5366" location="/Users/sumitarora/.ivy2/cache/io.netty/netty-all/docs/netty-all-4.0.44.Final-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.44.Final/netty-all-4.0.44.Final-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.42" status="release" pubdate="20170417235336" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2538" time="0" location="/Users/sumitarora/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.42.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="5.1.42" rev-constraint-default="5.1.42" rev-constraint-dynamic="5.1.42" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="904039" time="1714" location="/Users/sumitarora/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.42-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.42/mysql-connector-java-5.1.42-sources.jar"/>
+					</artifact>
+					<artifact name="mysql-connector-java" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.11">
+			<revision name="3.1.1" status="release" pubdate="20151216014716" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3130" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.slick/slick_2.11/ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="slick_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="5889059" time="5380" location="/Users/sumitarora/.ivy2/cache/com.typesafe.slick/slick_2.11/docs/slick_2.11-3.1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="slick_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="293720" time="1545" location="/Users/sumitarora/.ivy2/cache/com.typesafe.slick/slick_2.11/srcs/slick_2.11-3.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.11/3.1.1/slick_2.11-3.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.0" status="release" pubdate="20150429214454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/sumitarora/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="32731" time="1330" location="/Users/sumitarora/.ivy2/cache/org.reactivestreams/reactive-streams/docs/reactive-streams-1.0.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3130" time="1327" location="/Users/sumitarora/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.yammer.metrics" name="metrics-core">
+			<revision name="2.2.0" status="release" pubdate="20121127014109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4308" time="0" location="/Users/sumitarora/.ivy2/cache/com.yammer.metrics/metrics-core/ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46705" time="1528" location="/Users/sumitarora/.ivy2/cache/com.yammer.metrics/metrics-core/srcs/metrics-core-2.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="319899" time="1510" location="/Users/sumitarora/.ivy2/cache/com.yammer.metrics/metrics-core/docs/metrics-core-2.2.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.shiro" name="shiro-core">
+			<revision name="1.2.4" status="release" pubdate="20150708094206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="17352" time="0" location="/Users/sumitarora/.ivy2/cache/org.apache.shiro/shiro-core/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="shiro-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="2182460" time="2694" location="/Users/sumitarora/.ivy2/cache/org.apache.shiro/shiro-core/docs/shiro-core-1.2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="shiro-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="568346" time="1615" location="/Users/sumitarora/.ivy2/cache/org.apache.shiro/shiro-core/srcs/shiro-core-1.2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/shiro/shiro-core/1.2.4/shiro-core-1.2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.2" status="release" pubdate="20150506193115" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3083" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="22871" time="1274" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-json_2.11/srcs/spray-json_2.11-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar"/>
+					</artifact>
+					<artifact name="spray-json_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="651012" time="1610" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-json_2.11/docs/spray-json_2.11-1.3.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.3" status="release" pubdate="20141205014814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1225501" time="2744" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="109174" time="1343" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.3.176" status="release" pubdate="20140405182937" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2463" time="0" location="/Users/sumitarora/.ivy2/cache/com.h2database/h2/ivy-1.3.176.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.3.176/h2-1.3.176.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.176" rev-constraint-default="1.3.176" rev-constraint-dynamic="1.3.176" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1175288" time="1978" location="/Users/sumitarora/.ivy2/cache/com.h2database/h2/srcs/h2-1.3.176-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.3.176/h2-1.3.176-sources.jar"/>
+					</artifact>
+					<artifact name="h2" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3420160" time="4613" location="/Users/sumitarora/.ivy2/cache/com.h2database/h2/docs/h2-1.3.176-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.3.176/h2-1.3.176-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.flywaydb" name="flyway-core">
+			<revision name="3.2.1" status="release" pubdate="20150320202350" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="https://github.com/flyway/flyway/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="13193" time="0" location="/Users/sumitarora/.ivy2/cache/org.flywaydb/flyway-core/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="flyway-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="155752" time="1476" location="/Users/sumitarora/.ivy2/cache/org.flywaydb/flyway-core/docs/flyway-core-3.2.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="flyway-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="264186" time="1374" location="/Users/sumitarora/.ivy2/cache/org.flywaydb/flyway-core/srcs/flyway-core-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/flywaydb/flyway-core/3.2.1/flyway-core-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-http_2.11">
+			<revision name="1.3.4" status="release" pubdate="20160930184026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3296" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-http_2.11/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-http_2.11/1.3.4/spray-http_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-http_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1659829" time="2585" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-http_2.11/docs/spray-http_2.11-1.3.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-http_2.11/1.3.4/spray-http_2.11-1.3.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-http_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="99072" time="1446" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-http_2.11/srcs/spray-http_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-http_2.11/1.3.4/spray-http_2.11-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-scala_2.11">
+			<revision name="1.1.7" status="release" pubdate="20150209214151" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-scala_2.11/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="parboiled-scala_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="601740" time="1996" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-scala_2.11/docs/parboiled-scala_2.11-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="parboiled-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28671" time="1325" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-scala_2.11/srcs/parboiled-scala_2.11-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-util_2.11">
+			<revision name="1.3.4" status="release" pubdate="20160930183959" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3283" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-util_2.11/ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-util_2.11/1.3.4/spray-util_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-util_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="29891" time="1361" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-util_2.11/srcs/spray-util_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-util_2.11/1.3.4/spray-util_2.11-1.3.4-sources.jar"/>
+					</artifact>
+					<artifact name="spray-util_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="482485" time="1833" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-util_2.11/docs/spray-util_2.11-1.3.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-util_2.11/1.3.4/spray-util_2.11-1.3.4-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160304205641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4386937" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.mimepull" name="mimepull">
+			<revision name="1.9.5" status="release" pubdate="20150313164011" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="3953" time="0" location="/Users/sumitarora/.ivy2/cache/org.jvnet.mimepull/mimepull/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="mimepull" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="54395" time="1434" location="/Users/sumitarora/.ivy2/cache/org.jvnet.mimepull/mimepull/docs/mimepull-1.9.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="mimepull" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="68147" time="1301" location="/Users/sumitarora/.ivy2/cache/org.jvnet.mimepull/mimepull/srcs/mimepull-1.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-can_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324191806" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3554" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-can_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-can_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="84515" time="1354" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-can_2.11/srcs/spray-can_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar"/>
+					</artifact>
+					<artifact name="spray-can_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="514577" time="1784" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-can_2.11/docs/spray-can_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-io_2.11">
+			<revision name="1.3.3" status="release" pubdate="20150324192250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3310" time="0" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-io_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spray-io_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="491795" time="1571" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-io_2.11/docs/spray-io_2.11-1.3.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="spray-io_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="20764" time="1279" location="/Users/sumitarora/.ivy2/cache/io.spray/spray-io_2.11/srcs/spray-io_2.11-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.7" status="release" pubdate="20150209214230" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2789" time="0" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="166639" time="0" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-core/srcs/parboiled-core-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar"/>
+					</artifact>
+					<artifact name="parboiled-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="465512" time="0" location="/Users/sumitarora/.ivy2/cache/org.parboiled/parboiled-core/docs/parboiled-core-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.3" status="release" pubdate="20160328010531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/sumitarora/.ivy2/cache/joda-time/joda-time/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="770784" time="1736" location="/Users/sumitarora/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1321157" time="2364" location="/Users/sumitarora/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162656" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3952" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.9/akka-remote_2.11-2.4.9.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="155596" time="1320" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/srcs/akka-remote_2.11-2.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.9/akka-remote_2.11-2.4.9-sources.jar"/>
+					</artifact>
+					<artifact name="akka-remote_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1545684" time="2794" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/docs/akka-remote_2.11-2.4.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.9/akka-remote_2.11-2.4.9-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408192605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2876" time="0" location="/Users/sumitarora/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61093" time="1394" location="/Users/sumitarora/.ivy2/cache/org.uncommons.maths/uncommons-maths/srcs/uncommons-maths-1.2.2a-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar"/>
+					</artifact>
+					<artifact name="uncommons-maths" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="158263" time="1366" location="/Users/sumitarora/.ivy2/cache/org.uncommons.maths/uncommons-maths/docs/uncommons-maths-1.2.2a-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.6.Final" status="release" pubdate="20160629181528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7197" time="0" location="/Users/sumitarora/.ivy2/cache/io.netty/netty/ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1132389" time="2062" location="/Users/sumitarora/.ivy2/cache/io.netty/netty/srcs/netty-3.10.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar"/>
+					</artifact>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3394533" time="3603" location="/Users/sumitarora/.ivy2/cache/io.netty/netty/docs/netty-3.10.6.Final-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162229" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2664" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.9/akka-protobuf_2.11-2.4.9.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="275261" time="1414" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/srcs/akka-protobuf_2.11-2.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.9/akka-protobuf_2.11-2.4.9-sources.jar"/>
+					</artifact>
+					<artifact name="akka-protobuf_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="838905" time="2181" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/docs/akka-protobuf_2.11-2.4.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.9/akka-protobuf_2.11-2.4.9-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-beanutils" name="commons-beanutils">
+			<revision name="1.9.3" status="release" pubdate="20160921215132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://commons.apache.org/proper/commons-beanutils/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12135" time="0" location="/Users/sumitarora/.ivy2/cache/commons-beanutils/commons-beanutils/ivy-1.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.9.3" rev-constraint-default="1.9.3" rev-constraint-dynamic="1.9.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-beanutils" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="314687" time="1488" location="/Users/sumitarora/.ivy2/cache/commons-beanutils/commons-beanutils/srcs/commons-beanutils-1.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar"/>
+					</artifact>
+					<artifact name="commons-beanutils" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="814388" time="1491" location="/Users/sumitarora/.ivy2/cache/commons-beanutils/commons-beanutils/docs/commons-beanutils-1.9.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.2" status="release" pubdate="20151113044126" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11113" time="0" location="/Users/sumitarora/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="646075" time="0" location="/Users/sumitarora/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-collections" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2098525" time="0" location="/Users/sumitarora/.ivy2/cache/commons-collections/commons-collections/docs/commons-collections-3.2.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160225193951" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/sumitarora/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="4276472" time="5742" location="/Users/sumitarora/.ivy2/cache/com.chuusai/shapeless_2.11/docs/shapeless_2.11-2.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="shapeless_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="155752" time="1400" location="/Users/sumitarora/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215162037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/sumitarora/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="350813" time="1475" location="/Users/sumitarora/.ivy2/cache/org.typelevel/macro-compat_2.11/docs/macro-compat_2.11-1.1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1052" time="1476" location="/Users/sumitarora/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.9/akka-slf4j_2.11-2.4.9.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2280" time="1280" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.9/akka-slf4j_2.11-2.4.9-sources.jar"/>
+					</artifact>
+					<artifact name="akka-slf4j_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="31547" time="1462" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/docs/akka-slf4j_2.11-2.4.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.4.9/akka-slf4j_2.11-2.4.9-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.16" status="release" pubdate="20160212015603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/sumitarora/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55350" time="0" location="/Users/sumitarora/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="248587" time="0" location="/Users/sumitarora/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.16-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.9" status="release" pubdate="20160819162219" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2956" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.9/akka-actor_2.11-2.4.9.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.4.9" rev-constraint-default="2.4.9" rev-constraint-dynamic="2.4.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="392631" time="1467" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.9/akka-actor_2.11-2.4.9-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3993672" time="5035" location="/Users/sumitarora/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.4.9-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.9/akka-actor_2.11-2.4.9-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831163233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1193196" time="1995" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/docs/scala-java8-compat_2.11-0.7.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12469" time="1369" location="/Users/sumitarora/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508211611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/sumitarora/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="167084" time="1357" location="/Users/sumitarora/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="442657" time="1470" location="/Users/sumitarora/.ivy2/cache/com.typesafe/config/docs/config-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304205633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="9">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="genomeanalytics$sources_javadoc" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="21970519" time="0" location="/Users/sumitarora/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
