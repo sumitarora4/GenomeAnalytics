@@ -13,7 +13,7 @@ import spark.jobserver.SparkJobValid
  */
 object GenomeJobBase {
 
-  def runFromCommandLine(args: Array[String], job: GenomeBase, name: String) {
+  def runFromCommandLine(args: Array[String], job: GenomeBase, name: String) { 
     if (args.length == 0) {
       println("Configuration was not supplied")
       return
